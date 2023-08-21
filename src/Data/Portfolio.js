@@ -15,7 +15,7 @@ export default [{
 {
     title: 'Portfolio page',
     description: 'Short description goes here.',
-    imgUrl: '',
+    imgUrl: '/assets/portoflio_screenshot.png',
     stack: ['React', 'Tailwind', 'vite'],
     link: 'https://github.com/JamesMcG13/Portfolio_Page',
 }
