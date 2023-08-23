@@ -7,6 +7,7 @@ export default {
       backgroundImage: {
         'code': "url('assets/cool-background.jpg')",
         'UEA': "url('assets/UEA-background.jpg')",
+        'norwich': "url('assets/Norwich.png')",
       },
       fontFamily: {
         inter: ['inter', 'serif'],
