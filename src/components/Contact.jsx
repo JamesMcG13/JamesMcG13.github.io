@@ -4,7 +4,6 @@ import Title from "./title";
 function Contact(){
     return(
         <div className="pt-20">
-            <section class="w-screen h-96 flex items-center justify-center h-80 mb-20 bg-fixed bg-center bg-cover bg-bury"/>
             <Title>Contact me</Title>
             <div className="flex flex-col mb-10 mx-auto pt-10"> 
                 <div className="flex justify-center items-center">
