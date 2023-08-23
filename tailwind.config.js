@@ -8,6 +8,7 @@ export default {
         'code': "url('assets/cool-background.jpg')",
         'UEA': "url('assets/UEA-background.jpg')",
         'norwich': "url('assets/Norwich.png')",
+        'bury': "url('assets/Bury.png')",
       },
       fontFamily: {
         inter: ['inter', 'serif'],
