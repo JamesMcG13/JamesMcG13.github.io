@@ -7,6 +7,7 @@ import Title from "./title";
 function Timeline(){
     return(
         <div className="pt-10">
+            <section class="w-screen flex items-center justify-center h-80 mb-12 bg-fixed bg-center bg-cover bg-UEA"/>
             <Title>Timeline</Title>
             <div className="flex flex-col md:flex-row justify-center my-20">
                 <div className="w-full md:w-7/12">

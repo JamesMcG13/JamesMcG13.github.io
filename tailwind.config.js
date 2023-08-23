@@ -6,6 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         'code': "url('assets/cool-background.jpg')",
+        'UEA': "url('assets/UEA-background.jpg')",
       },
       fontFamily: {
         inter: ['inter', 'serif'],
