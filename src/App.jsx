@@ -68,7 +68,7 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed p-4 left-40 top-20 bg-gradient-to-r from-green-500 to-blue-500 drop-shadow-md hover:from-pink-500 hover:to-yellow-500 dark:bg-gradient-to-r dark:from-pink-500 dark:to-yellow-500 drop-shadow-md dark:hover:from-green-500 dark:hover:to-blue-500 text-lg p-1 rounded-md"
+        className="fixed z-40 p-4 md:left-40 top-20 bg-gradient-to-r from-green-500 to-blue-500 drop-shadow-md hover:from-pink-500 hover:to-yellow-500 dark:bg-gradient-to-r dark:from-pink-500 dark:to-yellow-500 drop-shadow-md dark:hover:from-green-500 dark:hover:to-blue-500 text-lg p-1 rounded-md"
       >
         {theme === 'dark' ? sun : moon}
       </button>
