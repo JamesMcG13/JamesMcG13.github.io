@@ -9,6 +9,7 @@ export default {
         'UEA': "url('assets/UEA-background.jpg')",
         'norwich': "url('assets/Norwich.png')",
         'bury': "url('assets/Bury.png')",
+        'bury_2': "url('assets/Bury_2.jpg')",
       },
       fontFamily: {
         inter: ['inter', 'serif'],
