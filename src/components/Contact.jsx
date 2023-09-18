@@ -8,7 +8,7 @@ function Contact(){
             <div className="flex flex-col mb-10 mx-auto pt-10"> 
                 <div className="flex justify-center items-center">
                     <form
-                        action="https://getform.io/slug"
+                        action="https://getform.io/f/1157e9b2-f8e4-4c4a-baa7-e38433c7a9a2"
                         method="POST"
                         className="flex flex-col w-full md:w-7/12"
                     >
