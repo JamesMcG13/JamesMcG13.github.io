@@ -4,7 +4,7 @@ import Typed from "react-typed";
 function Intro(){
     return (
         <div className="flex items-center justify center flex-col text-center pt-20 pb-20">
-            <h1 className="text-4xl md:text-6xl mb-2 md:mb-3 font-bold bg-clip-text text-stone-900 dark:text-white">This is a test!</h1>
+            <h1 className="text-4xl md:text-6xl mb-2 md:mb-3 font-bold bg-clip-text text-stone-900 dark:text-white">James McGowan</h1>
             <Typed className="text-base md:text-3xl mb-6 font-medium text-stone-900 dark:text-white"
                 strings={["Computer Science Graduate", "Software Engineer", "Data Scientist", "Web Developer", "Data Analyst"]}
                 typeSpeed={120}
