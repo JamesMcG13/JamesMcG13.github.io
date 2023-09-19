@@ -77,7 +77,7 @@ function App() {
           <Intro />
           <Portfolio />
           </div>
-          <section class="w-screen h-96 flex items-center justify-center h-80 mb-20 bg-fixed bg-center bg-cover bg-UEA"/>
+          <section class="w-screen h-96 flex items-center justify-center h-80 mb-20 bg-fixed bg-center bg-cover bg-UEA background"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Timeline />
           </div>
