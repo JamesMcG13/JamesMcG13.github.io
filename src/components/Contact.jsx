@@ -27,13 +27,13 @@ function Contact(){
                         />
 
                         <textarea
-                            name=""
+                            name="Message"
                             rows="10"
                             placeholder="Message"
                             className="my-2 mb-4 p-2 bg-white border-stone-900 border-4 rounded-md focus:outline-none dark:border-white dark:text-white dark:bg-stone-900"
                         />
 
-                        <button className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-500 to-blue-500 drop-shadow-md hover:from-pink-500 hover:to-yellow-500 dark:bg-gradient-to-r dark:from-pink-500 dark:to-yellow-500 drop-shadow-md dark:hover:from-green-500 dark:hover:to-blue-500">Send</button>
+                        <button className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-500 to-blue-500 drop-shadow-md hover:from-pink-500 hover:to-yellow-500 dark:bg-gradient-to-r dark:from-pink-500 dark:to-yellow-500 dark:hover:from-green-500 dark:hover:to-blue-500">Send</button>
 
                     </form>
 
