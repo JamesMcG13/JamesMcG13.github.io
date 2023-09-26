@@ -3,7 +3,7 @@ import React from "react";
 function PortfolioItem({title, description, imgUrl, stack, link}){
     return(
         <a 
-        className="text-white border-4 border-stone-900 ronded-md overflow-hidden bg-gradient-to-r from-green-500 to-blue-500 drop-shadow-md dark:border-white dark:bg-gradient-to-r dark:from-pink-500 dark:to-yellow-500"
+        className="text-white border-4 rounded-xl border-stone-900 overflow-hidden bg-gradient-to-r from-green-500 to-blue-500 drop-shadow-md dark:border-white dark:bg-gradient-to-r dark:from-pink-500 dark:to-yellow-500"
         href={link}
         target="_blank"
         >
