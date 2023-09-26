@@ -5,11 +5,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'code': "url('/assets/cool-background.jpg')",
-        'UEA': "url('/assets/UEA-background.jpg')",
-        'norwich': "url('/assets/Norwich.png')",
-        'bury': "url('/assets/Bury.png')",
-        'bury_2': "url('/assets/Bury_2.jpg')",
+        'code': "url('/assets/cool-background.webp')",
+        'UEA': "url('/assets/UEA-background.webp')",
+        'bury_2': "url('/assets/Bury_2.webp')",
       },
       fontFamily: {
         inter: ['inter', 'serif'],

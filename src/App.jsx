@@ -77,11 +77,11 @@ function App() {
           <Intro />
           <Portfolio />
           </div>
-          <section class="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-UEA background"/>
+          <picture class="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-UEA background"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Timeline />
           </div>
-          <section class="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-bury_2"/>
+          <picture class="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-bury_2"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Contact />
           <Footer />

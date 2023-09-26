@@ -17,7 +17,7 @@ function Intro(){
                 UEA gave me theory; now, I'm eager for hands-on industry experience, making an impact through software, algorithms, and open-source. 
                 I'm open to various paths – from creation to analysis – thanks to the ever-evolving tech space. My goal is to contribute, learn, and embrace growth in the technoloy sector!
             </p>
-            <section className="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-code"/>
+            <picture className="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-code"/>
         </div>
     )
 }
