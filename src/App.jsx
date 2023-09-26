@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
-import Intro from "./components/intro";
+import Intro from "./components/Intro";
 
 
 function App() {
@@ -77,11 +77,11 @@ function App() {
           <Intro />
           <Portfolio />
           </div>
-          <section class="w-screen h-96 flex items-center justify-center h-80 mb-20 bg-fixed bg-center bg-cover bg-UEA background"/>
+          <section class="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-UEA background"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Timeline />
           </div>
-          <section class="w-screen h-96 flex items-center justify-center h-80 mb-20 bg-fixed bg-center bg-cover bg-bury_2"/>
+          <section class="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-bury_2"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Contact />
           <Footer />
