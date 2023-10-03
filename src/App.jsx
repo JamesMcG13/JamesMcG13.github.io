@@ -75,13 +75,16 @@ function App() {
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-serif">
         <div className="max-w-7xl w-11/12 mx-auto">
           <Intro />
+          </div>
+          <picture className="flex w-full items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-code"/>
+          <div className="max-w-7xl w-11/12 mx-auto">
           <Portfolio />
           </div>
-          <picture class="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-UEA background"/>
+          <picture class="w-full flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-UEA background"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Timeline />
           </div>
-          <picture class="w-screen flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-bury_2"/>
+          <picture class="w-full flex items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-bury_2"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Contact />
           <Footer />
