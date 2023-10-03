@@ -76,7 +76,7 @@ function App() {
         <div className="max-w-7xl w-11/12 mx-auto">
           <Intro />
           </div>
-          <picture className="flex w-full items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-code"/>
+          <picture className="flex w-full items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-cover bg-center bg-code"/>
           <div className="max-w-7xl w-11/12 mx-auto">
           <Portfolio />
           </div>
