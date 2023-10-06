@@ -7,6 +7,7 @@ export default {
       backgroundImage: {
         'code': "url('/assets/cool-background.webp')",
         'UEA': "url('/assets/UEA-background.webp')",
+        'profile' : "url('/assets/profile.jpg')",
         'bury_2': "url('/assets/Bury_2.webp')",
       },
       fontFamily: {

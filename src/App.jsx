@@ -76,15 +76,15 @@ function App() {
         <div className="max-w-7xl w-11/12 mx-auto">
           <Intro />
           </div>
-          <picture className="flex max-w-full items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-cover bg-center bg-code"/>
+          <picture className="flex md:max-w-none ps-0 pe-0 items-center justify-center md:h-96 mb-20 bg-fixed bg-cover bg-center md:bg-code"/>
           <div className="max-w-7xl w-11/12 mx-auto">
           <Portfolio />
           </div>
-          <picture class="flex max-w-full items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-UEA background"/>
+          <picture class="flex max-w-none ps-0 pe-0 items-center justify-center md:h-96 mb-20 bg-fixed bg-center bg-cover md:bg-UEA"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Timeline />
           </div>
-          <picture class="flex max-w-full items-center justify-center h-80 md:h-96 mb-20 bg-fixed bg-center bg-cover bg-bury_2"/>
+          <picture class="flex max-w-none ps-0 pe-0 items-center justify-center md:h-96 mb-20 bg-fixed bg-center bg-cover md:bg-bury_2"/>
           <div className="max-w-5xl w-11/12 mx-auto">
           <Contact />
           <Footer />
