@@ -12,7 +12,7 @@ function Intro(){
                 backspeed={100}
                 loop
             />
-            <p className="pb-20 text-md max-w-screen-md font-semi-bold md:text-1xl text-stone-900 dark:text-white hover:-translate-y-1 hover:scale-110 duration-300">
+            <p className="pb-20 text-md max-w-screen-md font-semi-bold md:text-1xl text-stone-900 dark:text-white md:hover:-translate-y-1 md:hover:scale-110 md:duration-300">
             I am a passionate computer science graduate from UEA, eager to embark on a tech career. With a solid foundation and a thirst for knowledge, I'm ready to explore diverse career paths armed with a first-class degree. As a perpetual learner, I stay updated with industry trends and expand my toolkit. Problem-solving is my driving force, and I thrive in collaborative environments, valuing diverse perspectives. UEA gave me the theory; now, I'm eager for hands-on industry experience. I'm open to various paths – from creation to analysis – thanks to the ever-evolving tech space. My goal is to contribute, learn, and embrace growth in the technology sector!
             </p>
         </div>
