@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 function Intro(){
     return (
-        <div className="flex items-center justify center flex-col text-center pt-20 pb-20">
+        <div className="flex items-center justify center flex-col text-center pt-20 pb-20 h-screen">
             <img className="flex justify-center items-center flex-col md:h-80 md:w-80 h-36 w-36 rounded-full border-4 dark:border-white border-black bg-profile bg-cover md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"/>
             <h1 className="text-4xl md:text-7xl mb-2 md:mb-3 pt-10 font-bold bg-clip-text text-stone-900 dark:text-white md:hover:-translate-y-1 md:hover:scale-110 md:duration-300">James McGowan</h1>
             <Typed className="text-2xl md:text-4xl mb-6 font-medium text-stone-900 dark:text-white md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
