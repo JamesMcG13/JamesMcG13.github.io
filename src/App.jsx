@@ -1,41 +1,11 @@
-import React, {useEffect, useState, useRef} from "react"
+import React, {useEffect, useState} from "react"
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 import Intro from "./components/Intro";
+import RevealOnScroll from "./components/RevealOnScroll";
 
-const RevealOnScroll = ({ children }) => { 
-  const [isVisible, setIsVisible] = useState(false); 
-  const ref = useRef(null); 
-
-  useEffect(() => { 
-      const scrollObserver = new IntersectionObserver(([entry]) => { 
-          if (entry.isIntersecting) { 
-              setIsVisible(true); 
-              scrollObserver.unobserve(entry.target); 
-          } 
-      }); 
-
-      scrollObserver.observe(ref.current); 
-
-      return () => { 
-          if (ref.current) { 
-              scrollObserver.unobserve(ref.current); 
-          } 
-      }; 
-  }, []); 
-
-  const classes = `transition-opacity duration-1000  
-      ${isVisible ? "opacity-100" : "opacity-0"
-      }`; 
-
-  return ( 
-      <div ref={ref} className={classes}> 
-          {children} 
-      </div> 
-  ); 
-}; 
 
 function App() {
     const [theme, setTheme] = useState(null);
